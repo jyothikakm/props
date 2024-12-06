@@ -1,0 +1,60 @@
+/* General styles for the container and cards */
+.shadowbox {
+  position: relative;
+  width: 60%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Image section positioning */
+.style {
+ position: absolute;
+ width: 100%;
+ 
+
+}
+
+/* Content section styles */
+.desc {
+  position: relative;
+  z-index: 2;
+  max-width: 60%;
+  padding: 20px;
+}
+
+.head1, .head2, .head3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.para {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.butsty {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.butsty:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
